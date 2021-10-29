@@ -8,9 +8,11 @@ public class StarterClass {
     public static void main(String[] args) {
         for (int i = 0; i < args.length; i++) {
             String str = args[i];
-           // String str2 = StringUtils.upperCase(str);
-            //show(str2);
             showWithoutApache(str);
+
+           // System.out.println(StringUtils.upperCase(str));
+           // System.out.println("ERROR");
+
         }
     }
     public static void show(String str){
